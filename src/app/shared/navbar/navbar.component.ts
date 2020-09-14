@@ -12,7 +12,6 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {}
 
   irUsuario(usuario) {
-    console.log(usuario);
     this.router.navigate(['/usuario', usuario]);
   }
 }
